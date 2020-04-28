@@ -1,5 +1,5 @@
 # Secret key
-secret.json
+emotionalIntelAccessKey.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
