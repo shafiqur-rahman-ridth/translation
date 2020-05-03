@@ -21,7 +21,7 @@ batch_comments = [
 
 
 async def fetch(session, url, comments):
-    payload = {"q": comments, "target": "bn"}
+    payload = {"q": comments, "target": "en"}
     async with session.post(url, json=payload) as response:
         return await response.json()
 
